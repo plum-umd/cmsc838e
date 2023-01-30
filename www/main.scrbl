@@ -29,7 +29,7 @@ CMSC 838E is a graduate-level advanced compilers course.  Its major
 goal is to introduce the basics of programming language theory and the
 use of verified programming techniques for implementing languages. 
 
-@bold{Communications:} @link["https://discord.gg/7krAH8HNhn"]{Discord}
+@bold{Communications:} @link["https://discord.gg/szxynAkf"]{Discord}
 
 @bold{Assumptions:} As a graduate-level course, the major assumption
 is that you are self-directed and motivated to pursue your own
