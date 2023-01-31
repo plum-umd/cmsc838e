@@ -16,7 +16,7 @@
 		       @item{Read: @link["https://semantic-domain.blogspot.com/2022/09/the-golden-age-of-pl-research.html"]{The Golden Age of PL Research}}
                        @item{Survey: @link["https://umd.instructure.com/courses/1339016/quizzes/1595419"]{Getting to know you}}])
                (list @wk{2}
-	             @elem{}
+	             @secref["Coq-Basics"]
 		     @itemlist[
 		       @item{Read: LF @link["https://softwarefoundations.cis.upenn.edu/lf-current/Basics.html"]{Basics},
 		                      @link["https://softwarefoundations.cis.upenn.edu/lf-current/Induction.html"]{Induction}, &
