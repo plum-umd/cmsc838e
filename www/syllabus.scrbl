@@ -77,24 +77,31 @@ decide what to explore, but some potential topics include:
 
 @section{Grading}
 
-This is a graduate course.  If you're in for the grade, you're not
-doing it right.
+As a graduate course, your participation is extremely important and
+accounts for 20% of your assessment.  This means attending class,
+participating in discussions, and engaging with the course material.
 
-Grades will be assigned based on your effort to engage with the
-material and collaboration with classmates.
+For the remaining 80%, there are two ways to be evaluated in this
+course:
 
-@section[#:tag "syllabus-videos"]{Class meetings}
+@itemlist[
+@item{Assignment-based}
+@item{Project-based}
+]
 
-We will use the scheduled class times to meet synchronously via Zoom.
+The assignment-based path will require you to do and submit weekly work.
+It will be graded mostly for effort, not correctness.
 
-@section[#:tag "syllabus-project"]{Project}
+The project-based path will require to propose, implement, and
+write-up a small PL-related research project.  You have a lot of
+flexibility in terms of the design of the project, but you should work
+with the instructor early to make sure you're on the right path.
+Collaborative projects are encouraged.
 
-There will be small projects undertaken throughout the semester and a
-final more substantial project to be delivered by the end of the
-course.  All projects will be collaborative, although some will
-involve working individually or small teams.  For the final projects,
-students will have freedom to design their own project and set their
-own goals.
+
+@section{Class meetings}
+
+We will use the scheduled class times to meet synchronously in person.
 
 @section{Computing Resources}
 
@@ -147,7 +154,7 @@ exam and assignment. Please also carefully read the Office of Information
 Technology's @link["http://www.nethics.umd.edu/aup/"]{policy}
 regarding acceptable use of computer accounts.
 
-Projects are to be completed @bold{collaboratively}, therefore
+Projects may be completed @bold{collaboratively}, therefore
 cooperation with others is @bold{not} a violation of the University's
 Code of Academic Integrity.  However, your work must be your work.
 Plaigarism or the uncredited use of others' work is not acceptable.
@@ -182,12 +189,3 @@ to students, the instructors reserve the right to change any
 information on this syllabus or in other course materials.  Such
 changes will be announced and prominently displayed at the top of the
 syllabus.
-
-
-@;{
-@section{Course Materials}
-
-Portions of the course materials are based on material developed by
-Ranjit Jhala and Joe Gibbs Politz.  The CMSC 430 materials were
-developed by David Van Horn and José Manuel Calderón Trilla.
-}

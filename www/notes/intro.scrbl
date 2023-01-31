@@ -3,6 +3,7 @@
 @(require "../fancyverb.rkt" "../defns.rkt")
 @(require racket/system)
 
+@;{
 @(define (make-coq-repl)
   (define buffer (make-bytes 1000))
 
@@ -22,7 +23,7 @@
 @(define (coq . s)
    (define r (apply coq-repl s))
    (apply verbatim (append (list "Coq < ") s (list "\n" r))))
-
+}
 
 @title[#:tag "Intro"]{Introduction and Overview}
 
@@ -118,12 +119,75 @@ can submit anonymous feedback @link[anon-feedback-url]{here}.
 
 @section{What's this course about?}
 
+This course changes from year to year, but every year I try to deliver on two goals:
+
+@itemlist[
+@item{Convey the basics of programming language research}
+@item{Familiarize students with some aspect of cutting edge PL research}
+]
+
+To do that this year, we are going to focus on using so-called
+@bold{verification-integrated programming languages}.  These languages
+take the kind of behavioral guarantees offered by statically typed
+languages and turn the dial to 11.  They have much more sophisticated
+types and these types can express very strong invariants about a
+program.
+
+Verification-integrated languages have seen very active development in
+the PL community in the past couple of decades, leading to some
+amazing success stories, such as
+@link["https://compcert.org/"]{CompCert} which is a formally verified
+C compiler that is gcc compatible and
+@link["https://sel4.systems/"]{seL4}, a verified Linux microkernal.
+
+There are many languages that fall in to the category of
+verifcation-integrated PL, each occupying different points in the
+design space.  Some that you might want to check out, in no particular
+order, are:
+
+@itemlist[
+@item{F*}
+@item{Lean}
+@item{Agda}
+@item{Idris}
+@item{Isabelle/HOL}
+@item{Liquid Haskell}
+@item{Coq}
+]
+
+The last one, Coq, is probably the most mature and widely used and is
+the one we'll be focusing on in this course.  This is in some sense an
+arbitrary choice; we could've gone with any of the others on this
+list.  I chose Coq because there's a fair amount of local expertise on
+campus, some students have used it in CMSC 631, it takes some strong
+design cues from OCaml, which many folks here know, and there's
+excellent material that covers how to program and prove in Coq.
+
+The thing we going to build is a @bold{formally verified compiler for
+the CMSC 430 functional programming language}.  This will require us
+to cover all the basic foundational issues of defining a language and
+its semantics and stating and proving our compiler correctness claim,
+thus satisfying the first goal.  Doing all of this work in
+verification language like Coq will satisfy the second, since building
+verified compilers is itself an active area of research in the PL
+community.  Our research objective is very similar to that of the
+@link["https://cakeml.org/"]{Cake ML} project, although much smaller
+in scope.
+
+We will do this following a similar approach to that taking in CMSC
+430, which is to incrementally grow the language over time, starting
+from a very simple subset of the language we hope to eventually build.
+
+I don't know exactly how far we will get.  This is not something I've
+done before, so I will be learning right alongside you.  But in some
+sense, this is the essence of research: operating at the boundaries of
+your knowledge and trying to push further.  It can be uncomfortable at
+times, and frustrutrating, but it also can be a deeply satisfying
+experience which I hope you'll enjoy.
 
 
 
-
-
-
+@;{
 @coq|{
 Definition five := 5.
 }|
@@ -146,3 +210,4 @@ let rec foo x =
 HERE
 ]
 ...
+}

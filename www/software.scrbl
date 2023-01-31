@@ -38,4 +38,6 @@ This course will make use of the following software:
 
 @section{Installing Coq}
 
-...
+Follow instructions from @link["https://coq.inria.fr/download"]{The
+Coq Proof Assistant installation} page.  We recommend the ``Coq
+Platform'' approach.

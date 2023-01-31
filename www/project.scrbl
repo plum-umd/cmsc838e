@@ -2,6 +2,12 @@
 @(require "defns.rkt")
 @title[#:style '(unnumbered)]{Project}
 
+
+[This page is from a previous version of the course, which focused
+more on implementation of advanced features, so this is probably not
+the most appropriate list of suggestions for this years course.  It
+will be updated as we go.]
+
 There will be a final course project to be completed over the last
 several weeks of the course. The project will involve conducting a
 research project on the design and implementation of programming
