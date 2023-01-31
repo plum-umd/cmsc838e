@@ -50,3 +50,5 @@ announcement to the class.
 @include-section{notes.scrbl}
 @include-section{project.scrbl}
 @include-section{software.scrbl}
+@include-section{feedback.scrbl}
+

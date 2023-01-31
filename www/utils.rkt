@@ -1,6 +1,5 @@
-
 #lang racket
-(provide exercise float-right panopto-vid shell)
+(provide exercise float-right panopto-vid shell feedback-form)
 (require scribble/base scribble/core scribble/html-properties
          redex/pict)
 
@@ -60,3 +59,20 @@
 
 ; dealing with unicode capable font issues
 (metafunction-style "STIX Two Math")
+
+(define feedback-url
+  "https://docs.google.com/forms/d/1mJzzR53K_lGxI1KtYykiTTrOw_NxMjVPE42dwGfiCA0/")
+
+
+(define (feedback-form)
+ (elem #:style
+  (style #f
+         (list (alt-tag "iframe")
+               (attributes
+                 `((src . ,(string-append feedback-url "viewform?embedded=true"))
+		   (width . "640")
+		   (height . "407")
+		   (frameborder . "0")
+		   (marginheight . "0")
+		   (marginwidth . "0")))))
+   "Loading..."))

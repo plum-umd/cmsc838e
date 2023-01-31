@@ -39,5 +39,11 @@ This course will make use of the following software:
 @section{Installing Coq}
 
 Follow instructions from @link["https://coq.inria.fr/download"]{The
-Coq Proof Assistant installation} page.  We recommend the ``Coq
-Platform'' approach.
+Coq Proof Assistant installation} page.
+
+There are several different ways to install Coq, so please choose what
+works best for your system.  For me, using homebrew was the easiest.
+
+You may also want to install Proof General.
+
+
