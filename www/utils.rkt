@@ -61,7 +61,7 @@
 (metafunction-style "STIX Two Math")
 
 (define feedback-url
-  "https://docs.google.com/forms/d/1mJzzR53K_lGxI1KtYykiTTrOw_NxMjVPE42dwGfiCA0/")
+  "https://docs.google.com/forms/d/e/1FAIpQLSflqhC2WIZhZXWg7h9jJCaHV4Km-IIbDEOd4828Zhfa1SsaAw/")
 
 
 (define (feedback-form)
