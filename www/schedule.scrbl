@@ -27,5 +27,11 @@
 		       @item{Slides: @link["http://www.cs.umd.edu/~dvanhorn/slides/plmw-icfp-2020.pdf"]{PLMW 2020}}
 		       @item{Read: @link["http://siek.blogspot.com/2013/05/type-safety-in-three-easy-lemmas.html"]{Type Safety in Three Easy Lemmas}}
 		       @item{Read: LF @link["https://softwarefoundations.cis.upenn.edu/lf-current/Poly.html"]{Poly}, @link["https://softwarefoundations.cis.upenn.edu/lf-current/Tactics.html"]{Tactics}}])
+               (list @wk{4}
+	             @elem["Mechanizing Basic Mechanics"]
+		     @itemlist[
+		       @item{Read: LF @link["https://softwarefoundations.cis.upenn.edu/lf-current/Logic.html"]{Logic},
+		                      @link["https://softwarefoundations.cis.upenn.edu/lf-current/IndProp.html"]{IndProp},
+				      @link["https://softwarefoundations.cis.upenn.edu/lf-current/Maps.html"]{Maps}}])
 )]
 
