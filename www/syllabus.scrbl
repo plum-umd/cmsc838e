@@ -15,19 +15,18 @@ of instructor; or CMSC graduate student.
 
 @bold{Credits:} 3.
 
-@courseno is a graduate-level advanced compilers course.  Its major
-goal is to design and build a complete modern programming language
-implementation, including advanced research-level features.
-Throughout the course, students will collaboratively design and
-implement a high-level, memory safe programming languages with modern
-features drawn from the programming language literature, incorporated
-into a compiler that target the x86 CPU architecture
+@courseno is a graduate-level verified compilers course focused on
+developing machine-checked proofs of compiler correctness.  The course
+studies how to specify the semantics of a high-level functional
+language, implement a compiler targeting a low-level assembly
+language, and prove that compilation preserves the meaning of
+programs.
 
 The course assumes familiarity with a functional programming such as
 OCaml from CMSC 330, and, to a lesser extent, imperative programming
 in C and Assembly as covered in CMSC 216.  Since the course builds
 significantly on
-@link["https://www.cs.umd.edu/class/fall2021/cmsc430"]{CMSC 430}, it
+@link["https://www.cs.umd.edu/class/fall2025/cmsc430"]{CMSC 430}, it
 is recommended undergraduate students have already completed 430 and
 that graduate students have taken a compilers course before, however
 in either case, highly motivated students should be able to keep up
@@ -45,11 +44,10 @@ covering research papers relevant to our goals, discussing technical
 issues, and reviewing our collective work.
 
 Outside of the scheduled class time, we will communicate primarily via
-Discord and Github.
+Piazza.
 
-The discord server is there for you to organize as a class, ask
-questions of each other, and to get help from eachother and the
-instructor. 
+Piazza is there for you to organize as a class, ask questions of each
+other, and get help from each other and the instructor.
 
 @section{Topics}
 
@@ -59,43 +57,33 @@ decide what to explore, but some potential topics include:
 @itemlist[
   @item{Overview of compilation}
   @item{Operational semantics}
+  @item{Mechanized semantics and proofs in Lean}
   @item{Interpreters}
-  @item{Intermediate representations and bytecode}
-  @item{Code generation}
-  @item{Run-time systems}
-  @item{Garbage collection}
+  @item{Stack machines}
+  @item{Compiler correctness}
   @item{Type systems, type soundness, type inference}
-  @item{Register allocation and optimization}
+  @item{Variables and binding}
+  @item{Functions, tuples, heaps, and pointers}
+  @item{Lambda calculi}
+  @item{Logical relations}
+  @item{Unification and principal types}
+  @item{Recursive types and step-indexed logical relations}
   @item{Language design}
-  @item{Memory safety}
-  @item{Module systems}
-  @item{Macro systems}
-  @item{Foreignn interfaces}
-  @item{Alternative backends}
-  @item{Contracts}
   @item{Gradual types}]
 
 @section{Grading}
 
-As a graduate course, your participation is extremely important and
-accounts for 20% of your assessment.  This means attending class,
-participating in discussions, and engaging with the course material.
-
-For the remaining 80%, there are two ways to be evaluated in this
-course:
+Grades are based on participation, assignments, and a final project:
 
 @itemlist[
-@item{Assignment-based}
-@item{Project-based}
+@item{Participation: 20%}
+@item{Assignments: 20%}
+@item{Project: 60%}
 ]
 
-The assignment-based path will require you to do and submit weekly work.
-It will be graded mostly for effort, not correctness.
-
-The project-based path will require to propose, implement, and
-write-up a small PL-related research project.  You have a lot of
-flexibility in terms of the design of the project, but you should work
-with the instructor early to make sure you're on the right path.
+Participation means attending class, participating in discussions, and
+engaging with the course material.  The project requires proposing,
+implementing, and writing up a small PL-related research project.
 Collaborative projects are encouraged.
 
 
@@ -109,14 +97,14 @@ Students are expected to use their own systems or resources provided
 by the department or university to develop the deliverables for this
 course.
 
-We will use git and Github for revision control, continuous
-integration, and deployment.  Please make sure everything you build
-works on these systems.
+Students may use whatever development tools are appropriate for their
+course work.  Please make sure everything you build can be shared with
+the instructor.
 
 @section{Outside-of-class communication}
 
-Asynchronous communication will be done via Discord.  Please check in
-to the Discord server at least once per weekday at a bare minimum.
+Asynchronous communication is done via Piazza.  Please check Piazza at
+least once per weekday at a bare minimum.
 
 
 @section{Students with Disabilities}
@@ -157,7 +145,7 @@ regarding acceptable use of computer accounts.
 Projects may be completed @bold{collaboratively}, therefore
 cooperation with others is @bold{not} a violation of the University's
 Code of Academic Integrity.  However, your work must be your work.
-Plaigarism or the uncredited use of others' work is not acceptable.
+Plagiarism or the uncredited use of others' work is not acceptable.
 @bold{Any evidence} of this, or of unacceptable use of computer
 accounts, use of unauthorized materials, or other possible violations
 of the Honor Code, @bold{will be submitted} to the Student Honor

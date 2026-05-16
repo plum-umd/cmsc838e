@@ -19,7 +19,7 @@
 
 
 (define float-right
-  (style #f (list (attributes '((style . "float: right"))))))
+  (style #f (list (attributes '((style . "float: right; margin-left: 1em"))))))
 
 ;; Embed a public panopto video into page
 (define (panopto-vid src)

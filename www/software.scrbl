@@ -33,17 +33,26 @@
 This course will make use of the following software:
 
 @itemlist[
- @item{Coq}
+ @item{Lean}
 ]
 
-@section{Installing Coq}
+@section{Installing Lean}
 
-Follow instructions from @link["https://coq.inria.fr/download"]{The
-Coq Proof Assistant installation} page.
+The recommended setup is Lean 4 with Visual Studio Code:
 
-There are several different ways to install Coq, so please choose what
-works best for your system.  For me, using homebrew was the easiest.
+@itemlist[
+ @item{Install @link["https://code.visualstudio.com/"]{Visual Studio Code}.}
+ @item{Install the official @link["https://marketplace.visualstudio.com/items?itemName=leanprover.lean4"]{Lean 4}
+       VS Code extension.  In VS Code, open the Extensions sidebar,
+       search for @tt{Lean 4}, and install the extension published by
+       @tt{leanprover}.}
+ @item{Follow the @link["https://lean-lang.org/lean4/doc/quickstart.html"]{Lean
+       quickstart} to create or open a Lean project.  The extension
+       will guide you through installing the Lean toolchain using
+       @tt{elan} if it is not already installed.}
+]
 
-You may also want to install Proof General.
-
+After installation, open a @tt{.lean} file in VS Code and check that
+the Lean infoview appears.  You can also confirm the command-line tools
+with @tt{lean --version} and @tt{lake --version}.
 

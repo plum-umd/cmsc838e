@@ -6,4 +6,3 @@ These are the course notes for CMSC 838E.
 @local-table-of-contents[#:style 'immediate-only]
 
 @include-section{notes/intro.scrbl}
-@include-section{notes/coq-basics.scrbl}
